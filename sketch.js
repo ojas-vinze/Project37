@@ -6,7 +6,7 @@ var currenttime;
 function preload(){
   happydog=loadImage("images/dogimg2.png");
   dogimg=loadImage("images/dogimg1.png");
-  milkimg=loadImage("images/Milk.png");
+  milkimg=loadImage("images/milk.png");
   washroom=loadImage("images/Washroom.png");
   garden=loadImage("images/Garden.png");
   bedroom=loadImage("images/Bedroom.png");
