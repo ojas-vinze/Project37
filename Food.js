@@ -2,7 +2,7 @@ class Foodc{
     constructor(){
         this.foodstock=0
         this.lastfed=0
-        this.image=loadImage("Milk.png")
+        this.image=loadImage("images/milk.png")
     }
 
     display(){
@@ -21,7 +21,7 @@ class Foodc{
             }
         }
     }
-
+    
     getfoodstock(){
         var foodstockref=database.ref('Food');
         foodstockref.on("value",(data)=>{
@@ -51,7 +51,7 @@ class Foodc{
         console.log(foodtimeref);
         foodtimeref.on("value",(data)=>{
             lastfed=data.val();
-            console.log("in db" + lastfed);
+            console.log("in db " + lastfed);
         })
     }
 
