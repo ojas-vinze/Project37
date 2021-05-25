@@ -10,7 +10,7 @@ function preload(){
   washroom=loadImage("images/Washroom.png");
   garden=loadImage("images/Garden.png");
   bedroom=loadImage("images/Bedroom.png");
-  saddog=loadImage("images/deadDog.png");
+  saddog=loadImage("deadDog.png");
 }
 
 function setup(){
