@@ -83,7 +83,7 @@ function draw(){
   }else{
     feedb.show();
     addfoodb.show();
-    dog.addImage(saddog);
+//     dog.addImage(saddog);
   }
 
   drawSprites();
